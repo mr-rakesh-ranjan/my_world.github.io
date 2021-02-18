@@ -1,0 +1,101 @@
+
+element.style {
+    /* font-style: oblique; */
+    font-family: 'Risque', cursive;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('images/img.jpg');
+    
+    font-family: 'Risque', cursive;
+    color: white;
+
+}
+.left{
+    display: inline-block;
+    top: 20px;
+    left: 60px;
+    position: absolute;
+    /* border: 3px solid black; */
+
+}
+.left img{
+    width: 68px;
+}
+.left div{
+    text-align: center;
+}
+.center{
+    /* border: 3px solid green; */
+    display: block; 
+    top: 20px;
+    width: 36%;
+    margin: auto;
+}
+.right{
+    display: inline-block;
+    top: 20px;
+    right: 23px;
+    position: absolute;
+    /* border: 3px solid blue; */
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 2px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 23px 12px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: greenyellow;
+}
+.btn{
+    margin: 0px 9px;
+    color: white;
+    background-color:black;
+    padding: 6px 14px;
+    margin: 2px 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'Risque', cursive;
+}
+.btn:hover{
+    background-color:rgb(2, 17, 104);
+}
+.myself{
+    /* border: 2px solid whitesmoke; */
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 26px;
+    color: rgb(46, 5, 39);
+    align-content: center;
+    text-align: center;
+
+}
+.myself h3{
+    color: rgb(180, 81, 189);
+}
+.myself h1{
+    color: turquoise;
+}
+.colorchange{
+    animation: colorchangeRakesh 1s infinite;
+
+}
+
+@keyframes colorchangRakesh{
+    0%{color: red;}
+    25%{color: #c669ee;}
+    50%{color: white;}
+    100%{color: purple;}
+}
+.moblie-icon{display: none;}
