@@ -88,13 +88,14 @@ body{
     color: turquoise;
 }
 .colorchange{
-    animation: colorchangeRakesh 1s infinite;
+    animation: colorchangeTANNU 1s infinite;
 
 }
 
-@keyframes colorchangRakesh{
+@keyframes colorchangeTANNU{
     0%{color: red;}
-    25%{color: #c669ee;}
+    25%{color: #bf55ec;}
     50%{color: white;}
     100%{color: purple;}
 }
+.moblie-icon{display: none;}
